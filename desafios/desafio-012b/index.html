@@ -6,7 +6,16 @@
     <title>Desafio-12.b</title>
     <style>
         table {
-            
+            width: 300px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        
+        .centro {
+            text-align: center;
         }
     </style>
 
@@ -16,39 +25,28 @@
     <h1>Desafio 12.b</h1>
     <table>
         <tr>
-            <td>A</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>B</td>
+            <td colspan="4" class="centro">A</td>
+            <td rowspan="4" class="centro">B</td>
         </tr>
         <tr>
-            <td>C</td>
+            <td rowspan="4" class="centro">C</td>
             <td>D</td>
             <td>E</td>
             <td>F</td>
-            <td></td>
         </tr>
         <tr>
-            <td></td>
             <td>G</td>
             <td>H</td>
             <td>I</td>
-            <td></td>
         </tr>
         <tr>
-            <td></td>
             <td>J</td>
             <td>L</td>
             <td>M</td>
-            <td></td>
         </tr>
         <tr>
-            <td></td>
-            <td>N</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td colspan="4" class="centro">N</td>
+
         </tr>
     </table>
     
