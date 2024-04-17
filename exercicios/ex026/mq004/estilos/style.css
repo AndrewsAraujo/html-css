@@ -14,6 +14,20 @@ header {
     background-color: darkgrey;
 }
 
+span#burguer {
+    background-color: rgb(71, 71, 71);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+
+}
+
 header h1 {
     text-align: center;
     padding: 10px;
@@ -23,8 +37,11 @@ header nav {
     display: block;
 }
 
+
+
 nav  ul {
     list-style-type: none;
+    display: none;
 }
 
 nav a {
