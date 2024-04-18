@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+@media print {
+
+}
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    html {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    main {
+        width: 350px;
+    }
+
+    main h2::before {
+        content: "Tablet";
+        display: block;
+    }
+
+    img#telefone {display: none;}
+    img#pc {display: none;}
+    img#tablet {display: block;}
+    img#impressora {display: none;}
+    img#tv {display: none;}
+
+    
+
+}
+
+@media screen and (min-width:769px) and (max-width:991px) {
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+}
+
+@media screen and (min-width:1200px) {
+
+}
