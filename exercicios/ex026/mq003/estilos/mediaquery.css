@@ -2,7 +2,23 @@
 
 
 @media print {
+    html {
+        font-family: 'Courier New', Courier, monospace;
+    }
 
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    img#telefone {display: none;}
+    img#pc {display: none;}
+    img#tablet {display: none;}
+    img#impressora {display: block;}
+    img#tv {display: none;}
 }
 
 @media screen and (min-width:600px) and (max-width:768px) {
@@ -14,29 +30,45 @@
         width: 350px;
     }
 
-    main h2::before {
-        content: "Tablet";
-        display: block;
-    }
-
     img#telefone {display: none;}
     img#pc {display: none;}
     img#tablet {display: block;}
     img#impressora {display: none;}
     img#tv {display: none;}
 
-    
-
 }
 
-@media screen and (min-width:769px) and (max-width:991px) {
+@media screen and (min-width:769px) and (max-width:1199px) {
+    html {
+        background-image: url(../imagens/back-pc.jpg);
+    }
 
+    main {
+        width: 420px;
+    }
+
+    img#telefone {display: none;}
+    img#pc {display: block;}
+    img#tablet {display: none;}
+    img#impressora {display: none;}
+    img#tv {display: none;}
 }
 
-@media screen and (min-width:992px) and (max-width:1199px) {
 
-}
 
 @media screen and (min-width:1200px) {
+    html {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main {
+        width: 500px;
+    }
+
+    img#telefone {display: none;}
+    img#pc {display: none;}
+    img#tablet {display: none;}
+    img#impressora {display: none;}
+    img#tv {display: block;}
 
 }

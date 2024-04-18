@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: gray;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+header ul {
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+header li {
+    background-color: rgb(100, 99, 99);
+    display: block;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header li:hover {
+    background-color: rgb(170, 170, 170);
+}
