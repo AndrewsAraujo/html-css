@@ -3,7 +3,12 @@
 * {
     margin: 0px;
     padding: 0px;
+
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
 }
 
 header {
@@ -15,22 +20,58 @@ header h1 {
     padding: 10px;
 }
 
-header ul {
-    text-decoration: none;
+span#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+nav { 
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
     padding-top: 10px;
 }
 
-header li {
-    background-color: rgb(100, 99, 99);
+nav a {
     display: block;
-    text-align: center;
-}
-
-header a {
-    color: white;
+    padding: 10px;
     text-decoration: none;
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
 }
 
-header li:hover {
+nav a:hover {
     background-color: rgb(170, 170, 170);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article h2 {
+    padding-bottom: 20px;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 15px;
 }
